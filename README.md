@@ -1,6 +1,6 @@
 # CN1Lib - Native Logs Reader
 
-Codename One Library (by Francesco Galgani) to get easily the native logs of Android and iOS.
+Codename One Library (by Francesco Galgani) to get easily the native logs of Android and iOS (useful for debugging purposes).
 
 ## Usage
 
