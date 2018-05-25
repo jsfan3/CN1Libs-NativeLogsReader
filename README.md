@@ -1,8 +1,8 @@
-#CN1Lib - Native Logs Reader
+# CN1Lib - Native Logs Reader
 
 Codename One Library to get easily the native logs of Android and iOS.
 
-##Usage
+## Usage
 
 1. In the init() of the main class, invoke `NativeLogs.initNativeLogs();`
 2. After that, in any point of the app, get the native logs with `String logs = NativeLogs.getNativeLogs();`
