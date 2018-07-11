@@ -2,6 +2,14 @@
 
 Codename One Library (by Francesco Galgani) to get easily the native logs of Android and iOS (useful for debugging purposes).
 
+## Installation
+
+Follow the standard way to install a CN1Lib from the Extension Manager: https://www.codenameone.com/blog/automatically-install-update-distribute-cn1libs-extensions.html
+
+## Warning for Android
+
+After a factory reset of my Android 7 device, I needed to enable the developer tools in the Android settings and then I needed to enable the USB debug option to make this library working. After that, this library started to work without the need of USB connection (that's why I created it). I'm not sure if it's a general (odd) rule related to logcat or a problem of my device. However this issue is absent of iPhone.
+
 ## Usage
 
 1. In the init() of the main class, invoke `NativeLogs.initNativeLogs();`
