@@ -8,7 +8,7 @@ Follow the standard way to install a CN1Lib from the Extension Manager: https://
 
 ## Warning for Android
 
-After a factory reset of my Android 7 device, I needed to enable the developer tools in the Android settings and then I needed to enable the USB debug option to make this library working. After that, this library started to work without the need of USB connection (that's why I created it). I'm not sure if it's a general (odd) rule related to logcat or a problem of my device. However this issue is absent of iPhone.
+After a factory reset of my Android 7 device, this library stopped to work. The solution is to enable the developer tools in the Android settings and then the USB debug option: after that, this library started again to work properly, without the need of USB connection (that's why I created it). I'm not sure if it's a general (odd) rule related to logcat or a problem of my device. However this issue is absent of iPhone.
 
 ## Usage
 
