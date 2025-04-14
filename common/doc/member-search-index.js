@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"net.informaticalibera.cn1.nativelogreader","c":"NativeLogs","l":"clearNativeLogs()"},{"p":"net.informaticalibera.cn1.nativelogreader","c":"NativeLogs","l":"getNativeLogs()"},{"p":"net.informaticalibera.cn1.nativelogreader","c":"NativeLogs","l":"initNativeLogs()"}];updateSearchResults();

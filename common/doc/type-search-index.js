@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"net.informaticalibera.cn1.nativelogreader","l":"NativeLogs"}];updateSearchResults();

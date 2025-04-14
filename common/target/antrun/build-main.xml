@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <mkdir dir="/home/francesco/cn1lib/cn1.nativelogreader/common/src/main/css" />
+    <touch file="/home/francesco/cn1lib/cn1.nativelogreader/common/src/main/css/index.txt" />
+    <mkdir dir="/home/francesco/cn1lib/cn1.nativelogreader/common/target/cn1css/META-INF/codenameone/net.informaticalibera/cn1.nativelogreader-common/css" />
+    <copy todir="/home/francesco/cn1lib/cn1.nativelogreader/common/target/cn1css/META-INF/codenameone/net.informaticalibera/cn1.nativelogreader-common/css">
+      <fileset dir="/home/francesco/cn1lib/cn1.nativelogreader/common/src/main/css" />
+    </copy>
+    <zip destfile="/home/francesco/cn1lib/cn1.nativelogreader/common/target/cn1.nativelogreader-common-2.0-cn1css.zip" compress="true">
+      <fileset dir="/home/francesco/cn1lib/cn1.nativelogreader/common/target/cn1css" />
+    </zip>
+  </target>
+</project>

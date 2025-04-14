@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <delete file="/home/francesco/cn1lib/cn1.nativelogreader/android/target/cn1.nativelogreader-android-2.0.jar" />
+    <mkdir dir="/home/francesco/cn1lib/cn1.nativelogreader/android/src/main/resources" />
+    <mkdir dir="/home/francesco/cn1lib/cn1.nativelogreader/android/src/main/java" />
+    <jar destfile="/home/francesco/cn1lib/cn1.nativelogreader/android/target/cn1.nativelogreader-android-2.0.jar" compress="true">
+      <fileset dir="/home/francesco/cn1lib/cn1.nativelogreader/android/src/main/resources" />
+      <fileset dir="/home/francesco/cn1lib/cn1.nativelogreader/android/src/main/java" />
+    </jar>
+  </target>
+</project>
